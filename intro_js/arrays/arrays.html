@@ -1,0 +1,21 @@
+<script>
+    const cidades = ["Cascavel", "Toledo"]
+
+    console.log(cidades);
+
+    cidades.push("Palotina"); // adiciona elemento no final do array
+    console.log(cidades);
+    
+    cidades.unshift("Foz do Iguaçu"); // adiciona elemento no início do array
+    console.log(cidades);
+
+    let last = cidades.pop(); // remove o último elemento do array, pode ser armazenado numa variável
+    console.log(cidades); 
+    console.log(last); 
+
+    let first = cidades.shift() // remove o primeiro elemento do array, pode ser armazenado numa variável
+    console.log(cidades);
+    console.log(first);
+
+    console.log(cidades.join(";")); // retorna uma string com os elementos do array separados pelo caractere passado
+</script>
